@@ -1,3 +1,6 @@
+:root {
+  --primary_color: #0077ff;
+}
 
 body {
   background-color: #000000;
@@ -29,10 +32,10 @@ button {
   background: none;
   border: none;
   color: #ffffff;
+  font-size: large;
 }
 
 iframe {
-  margin: 0px;
   display: block;
   margin: 0 auto;
   border-radius: 2%;
@@ -43,5 +46,20 @@ iframe {
 }
 
 .header-text {
-  color: #184ba8;
+  color: var(--primary_color);
+}
+
+.view_button {
+  color: var(--primary_color)
+}
+
+.view_button:hover {
+  color: #59b4ff;
+}
+
+.list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
