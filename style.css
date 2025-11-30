@@ -3,29 +3,18 @@ body {
   background-color: #000000;
   font-family: system-ui, sans-serif;
   color: #ffffff;
+  text-align: center;
 }
 
 h1 {
   font-size: 50px;
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-
 }
 
 div {
   padding: 10px 0px;
 }
 
-h3 {
-  text-align: center;
-  color: #bbbbbb;
-}
-
 p {
-  text-align: center;
   color: #bbbbbb;
   margin: 10px;
 }
