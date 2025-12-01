@@ -52,7 +52,6 @@ iframe {
 
 .view_button {
   color: var(--primary_color);
-  font-weight: 600;
 }
 
 .view_button:hover {
