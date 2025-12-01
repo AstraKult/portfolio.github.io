@@ -1,5 +1,5 @@
 :root {
-  --primary_color: #0077ff;
+  --primary_color: #0066ff;
 }
 
 body {
@@ -20,6 +20,7 @@ div {
 p {
   color: #bbbbbb;
   margin: 10px;
+  font-size: large;
 }
 
 section {
@@ -40,9 +41,9 @@ iframe {
   margin: 0 auto;
   border-radius: 2%;
   border-color: #ffffff;
-  position: relative;
-  width: 500px;
-  height: 250px;
+  width: 700px;
+  height: 400px;
+  aspect-ratio: auto;
 }
 
 .header-text {
@@ -50,11 +51,12 @@ iframe {
 }
 
 .view_button {
-  color: var(--primary_color)
+  color: var(--primary_color);
+  font-weight: 600;
 }
 
 .view_button:hover {
-  color: #59b4ff;
+  color: #148dff;
 }
 
 .list {
