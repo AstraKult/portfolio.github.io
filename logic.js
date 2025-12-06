@@ -13,7 +13,7 @@ const btn_view_works = document.getElementById("btn_view_works")
 
 btn_view_works.addEventListener("click", function () {
     window.scrollTo({
-        top: 2050,
+        top: 2100,
         left: 0,
         behavior: "smooth"
     });
