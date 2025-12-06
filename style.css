@@ -1,5 +1,5 @@
 :root {
-  --primary_color: #0066ff;
+  --primary_color: #0059ff;
 }
 
 body {
@@ -9,13 +9,24 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-size: 50px;
+p {
+  font-size: 89px;
 }
 
-div {
-  padding: 10px 0px;
+h1 {
+  font-size: 34px;
 }
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 21px;
+  color: #bbbbbb;
+  font-weight: 400;
+}
+
 
 p {
   color: #bbbbbb;
@@ -24,7 +35,7 @@ p {
 }
 
 section {
-  padding: 55px 0px;
+  padding: 144px 0px 610px 0px;
 }
 
 button {
@@ -53,7 +64,7 @@ iframe {
 
 .view_button {
   color: var(--primary_color);
-  font-size: 28px;
+  font-size: 21px;
 }
 
 .view_button:hover {
